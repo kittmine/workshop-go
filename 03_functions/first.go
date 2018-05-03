@@ -3,7 +3,12 @@ package main
 import "fmt"
 
 // TODO: Make a "print" function
+func print(x string) string {
+	return x
+}
 
 func main() {
-    print("Hello World")
+
+	fmt.Println(print("Hello World"))
+
 }
